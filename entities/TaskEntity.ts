@@ -1,5 +1,5 @@
+const { Entity, PrimaryGeneratedColumn, Column } = require('typeorm');
 
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 @Entity()
 export class TaskEntity {
